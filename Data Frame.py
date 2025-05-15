@@ -6,3 +6,4 @@ df1
 display(df1)
 df1.columns=['Alphabet','Numeric Value']
 display(df1)
+df1.drop('Alphabet',axis=1,inplace=True)
